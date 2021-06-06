@@ -31,10 +31,10 @@ CloseCon($conn);
     
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="bootstrap-5.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.0/dist/css/bootstrap.min.css">
     
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/carousel.css">
 
   </head>
   <body>
