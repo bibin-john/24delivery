@@ -4,6 +4,7 @@ include './database/db_connection.php';
 $conn = OpenCon();
 //echo "Connected Successfully 1";
 
+
 $sql = mysqli_query($conn, "select * from category");
 if (mysqli_num_rows($sql)) {
     // echo "category"; 
@@ -25,15 +26,19 @@ CloseCon($conn);
     <meta name="description" content="">
     <meta name="author" content="Bibin John">
     <meta name="generator" content="Hugo 0.82.0">
-    <title>24 delivery1</title>
+    <title>24 delivery</title>
+
+    
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="24delivery/bootstrap-5.0.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="24delivery/css/style.css">
-    <link rel="stylesheet" href="24delivery/css/carousel.css">
+    <link rel="stylesheet" href="bootstrap-5.0.0/dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carousel.css">
 
   </head>
   <body>
+    
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
@@ -153,6 +158,7 @@ CloseCon($conn);
     <!-- START THE FEATURETTES -->
 
     <hr class="featurette-divider">
+
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
@@ -204,6 +210,9 @@ CloseCon($conn);
   </footer>
 </main>
 
-  <script src="24delivery/bootstrap-5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+
+    <script src="bootstrap-5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
 </html>
