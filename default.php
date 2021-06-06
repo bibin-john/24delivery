@@ -26,7 +26,7 @@ CloseCon($conn);
     <meta name="description" content="">
     <meta name="author" content="Bibin John">
     <meta name="generator" content="Hugo 0.82.0">
-    <title>24 delivery</title>
+    <title>24 delivery1</title>
 
     
 
