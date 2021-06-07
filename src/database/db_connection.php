@@ -12,10 +12,7 @@ function OpenCon()
    $password = "Apple$123";
    $db = "u246501751_24delivery";*/
    
-
-
    $conn = new mysqli($hostname, $user_name, $password, $db) or die("Connect failed: %s\n" . $conn->error);
-
 
    return $conn;
 }
