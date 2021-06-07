@@ -16,25 +16,8 @@
 </head>
 
 <body>
-  <?php
-
-  include './database/db_connection.php';
-  $conn = OpenCon();
-  //echo "Connected Successfully 1";
-
-
-  $sql = mysqli_query($conn, "select * from category");
-  if (mysqli_num_rows($sql)) {
-    // echo "category"; 
-  }
-
-  $qqr = mysqli_fetch_array($sql);
-
-  //echo $qqr[0];
-
-  CloseCon($conn);
-
-  ?>
+  <?php require_once 'src/database/db_connection.php'; ?>
+  <?php include 'src/database/connection_test.php';  ?>
 
   <!-- HEADER --->
   <?php include 'src/header/header.php';  ?>
