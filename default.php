@@ -12,15 +12,22 @@
   <link rel="stylesheet" href="bootstrap-5.0.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/carousel.css">
+  <script src="./bootstrap-5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
 <body>
+  <?php require __DIR__ . '/vendor/autoload.php'; ?>
   <?php require_once 'src/database/db_connection.php'; ?>
-  <?php include 'src/database/connection_test.php';  ?>
+  <?php //include 'src/database/connection_test.php';  ?>
+
+  <?php include 'src/svg/svg.php';  ?>
 
   <!-- HEADER --->
   <?php include 'src/header/header.php';  ?>
+
+  <!-- MENU --->
+  <?php include 'src/menu/menu.php';  ?>
 
   <main>
 
@@ -49,6 +56,7 @@
 
   </main>
 
-  <script src="bootstrap-5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+ 
 </body>
+
 </html>
