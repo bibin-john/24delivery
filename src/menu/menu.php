@@ -1,4 +1,5 @@
 <div class="row px-3 py-5 bg-dark  text-white">
+    <!-- COL 1 -->
     <div class="col-1">
         <svg class="bi d-block mx-auto mb-1" width="24" height="24">
             <use xlink:href="#home" />
@@ -20,6 +21,8 @@
             </ul>
         </div>
     </div>
+
+     <!-- COL 2 -->
     <div class="col-1">
         <svg class="bi d-block mx-auto mb-1" width="24" height="24">
             <use xlink:href="#speedometer2" />
@@ -41,6 +44,8 @@
             </ul>
         </div>
     </div>
+
+     <!-- COL 3 -->
     <div class="col-1">
         <svg class="bi d-block mx-auto mb-1" width="24" height="24">
             <use xlink:href="#table" />
@@ -62,6 +67,8 @@
             </ul>
         </div>
     </div>
+
+     <!-- COL 4 -->
     <div class="col-1">
         <svg class="bi d-block mx-auto mb-1" width="24" height="24">
             <use xlink:href="#people-circle" />
@@ -83,6 +90,8 @@
             </ul>
         </div>
     </div>
+
+     <!-- COL 5 -->
     <div class="col-1"> <svg class="bi d-block mx-auto mb-1" width="24" height="24">
             <use xlink:href="#grid" />
         </svg>
@@ -103,6 +112,8 @@
             </ul>
         </div>
     </div>
+
+     <!-- COL 6 -->
     <div class="col-1"> <svg class="bi d-block mx-auto mb-1" width="24" height="24">
             <use xlink:href="#grid" />
         </svg>
@@ -123,6 +134,8 @@
             </ul>
         </div>
     </div>
+
+     <!-- COL 8 -->
     <div class="col-1"> <svg class="bi d-block mx-auto mb-1" width="24" height="24">
             <use xlink:href="#grid" />
         </svg>
@@ -143,6 +156,8 @@
             </ul>
         </div>
     </div>
+
+     <!-- COL 9 -->
     <div class="col-1"> <svg class="bi d-block mx-auto mb-1" width="24" height="24">
             <use xlink:href="#grid" />
         </svg>
@@ -163,6 +178,8 @@
             </ul>
         </div>
     </div>
+
+     <!-- COL 10 -->
     <div class="col-1"> <svg class="bi d-block mx-auto mb-1" width="24" height="24">
             <use xlink:href="#grid" />
         </svg>
@@ -183,6 +200,8 @@
             </ul>
         </div>
     </div>
+
+     <!-- COL 11 -->
     <div class="col-1"> <svg class="bi d-block mx-auto mb-1" width="24" height="24">
             <use xlink:href="#grid" />
         </svg>
@@ -203,6 +222,8 @@
             </ul>
         </div>
     </div>
+
+     <!-- COL 12 -->
     <div class="col-1"> <svg class="bi d-block mx-auto mb-1" width="24" height="24">
             <use xlink:href="#grid" />
         </svg>
@@ -223,24 +244,5 @@
             </ul>
         </div>
     </div>
-    <div class="col-1"> <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-            <use xlink:href="#grid" />
-        </svg>
-        <div class="dropdown">
-            <a href="#" class="link-light d-flex align-items-center col-lg-4 mb-2 mb-lg-0  text-decoration-none dropdown-toggle" id="dropdownNavLink" data-bs-toggle="dropdown" aria-expanded="false">
-                Products
-            </a>
-            <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownNavLink">
-                <li><a class="dropdown-item active" href="#">Overview</a></li>
-                <li><a class="dropdown-item" href="#">Inventory</a></li>
-                <li><a class="dropdown-item" href="#">Customers</a></li>
-                <li><a class="dropdown-item" href="#">Products</a></li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Reports</a></li>
-                <li><a class="dropdown-item" href="#">Analytics</a></li>
-            </ul>
-        </div>
-    </div>
+
 </div>
