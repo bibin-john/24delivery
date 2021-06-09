@@ -8,12 +8,17 @@
   <meta name="author" content="Bibin John">
   <meta name="generator" content="Hugo 0.82.0">
   <title>24 delivery</title>
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="bootstrap-5.0.0/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/carousel.css">
-  <script src="./bootstrap-5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
+  <!-- CSS  -->
+  <link rel="stylesheet" href="bootstrap-5.0.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/carousel.css">
+  <link rel="stylesheet" href="css/style.css">
+
+   <!-- scripts  -->
+  <script src="./bootstrap-5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script data-ad-client="ca-pub-3136975639576271" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script type="module" src="js/main.js"></script>
+  
 </head>
 
 <body>
@@ -27,11 +32,11 @@
   <?php include 'src/header/header.php';  ?>
 
   <!-- MENU --->
-  <?php include 'src/menu/menu.php';  ?>
+  <?//php include 'src/menu/menu.php';  ?>
 
   <main>
 
-    <?php include 'src/carousel/carousel.php'; ?>
+    <?php //include 'src/carousel/carousel.php'; ?>
 
 
     <!-- Marketing messaging and featurettes
@@ -41,18 +46,18 @@
     <div class="container marketing">
 
       <!-- PRODUCTS LISTING -->
-      <?php include 'src/products/products.php'; ?>
+      <?php //include 'src/products/products.php'; ?>
 
 
       <!--  FEATURETTES -->
 
-      <?php include 'src/features/features.php'; ?>
+      <?php //include 'src/features/features.php'; ?>
 
     </div><!-- /.container -->
 
 
     <!-- FOOTER -->
-    <?php include 'src/footer/footer.php'; ?>
+    <?php //include 'src/footer/footer.php'; ?>
 
   </main>
 
