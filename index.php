@@ -24,71 +24,23 @@
 <body>
   <?php require __DIR__ . '/vendor/autoload.php'; ?>
   <?php require_once 'src/database/db_connection.php'; ?>
-  <?php //include 'src/database/connection_test.php';  ?>
+  <?php //include 'src/database/connection_test.php';  
+  ?>
 
   <?php include 'src/svg/svg.php';  ?>
   <!-- HEADER --->
   <?php include 'src/header/header.php';  ?>
 
-  <main class="mt-5">
-
+  <main>
+     
+    <!-- Router -->
     <?php
-
-     use SebastianBergmann\Timer\Timer;
-     use SebastianBergmann\Timer\ResourceUsageFormatter;
-     $timer = new Timer;
-     $timer->start();
-    // print (new ResourceUsageFormatter)->resourceUsage($timer->stop());
-    
-    use App\Router;
-    $router = new Router(); 
-
-    $router->get('/', function(){
-       echo "Home page";
-    });
-
-    $router->get('/signin', function(){
-      echo "signin page";
-   });
-
-    $router->run();
-
+     require_once('src/router/RequestHandle.php'); 
     ?>
-
-
-    <!-- MENU --->
-    <?php //include 'src/user/signIn.php';  
-    ?>
-
-    <!-- MENU --->
-    <? //php include 'src/menu/menu.php';  
-    ?>
-
-    <?php //include 'src/carousel/carousel.php'; 
-    ?>
-
-
-    <!-- Marketing messaging and featurettes
-  ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-      <!-- PRODUCTS LISTING -->
-      <?php //include 'src/products/products.php'; 
-      ?>
-
-
-      <!--  FEATURETTES -->
-
-      <?php //include 'src/features/features.php'; 
-      ?>
-
-    </div><!-- /.container -->
-
 
     <!-- FOOTER -->
-    <?php //include 'src/footer/footer.php'; 
+    <?php 
+       include 'src/footer/footer.php'; 
     ?>
 
   </main>
