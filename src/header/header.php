@@ -4,7 +4,7 @@
 
       <div class="m-auto row">
         <div class="col-3">
-          <svg class="bi me-2" width="40" height="32">
+          <svg class="bi me-2 fill-white" width="40" height="32">
             <use xlink:href="#bootstrap" />
           </svg>
         </div>

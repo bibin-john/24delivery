@@ -14,11 +14,11 @@
   <link rel="stylesheet" href="css/carousel.css">
   <link rel="stylesheet" href="css/style.css">
 
-   <!-- scripts  -->
+  <!-- scripts  -->
   <script src="./bootstrap-5.0.0/dist/js/bootstrap.bundle.min.js"></script>
   <script data-ad-client="ca-pub-3136975639576271" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script type="module" src="js/main.js"></script>
-  
+
 </head>
 
 <body>
@@ -27,16 +27,45 @@
   <?php //include 'src/database/connection_test.php';  ?>
 
   <?php include 'src/svg/svg.php';  ?>
-
   <!-- HEADER --->
   <?php include 'src/header/header.php';  ?>
 
-  <!-- MENU --->
-  <?//php include 'src/menu/menu.php';  ?>
+  <main class="mt-5">
 
-  <main>
+    <?php
 
-    <?php //include 'src/carousel/carousel.php'; ?>
+     use SebastianBergmann\Timer\Timer;
+     use SebastianBergmann\Timer\ResourceUsageFormatter;
+     $timer = new Timer;
+     $timer->start();
+    // print (new ResourceUsageFormatter)->resourceUsage($timer->stop());
+    
+    use App\Router;
+    $router = new Router(); 
+
+    $router->get('/', function(){
+       echo "Home page";
+    });
+
+    $router->get('/signin', function(){
+      echo "signin page";
+   });
+
+    $router->run();
+
+    ?>
+
+
+    <!-- MENU --->
+    <?php //include 'src/user/signIn.php';  
+    ?>
+
+    <!-- MENU --->
+    <? //php include 'src/menu/menu.php';  
+    ?>
+
+    <?php //include 'src/carousel/carousel.php'; 
+    ?>
 
 
     <!-- Marketing messaging and featurettes
@@ -46,22 +75,25 @@
     <div class="container marketing">
 
       <!-- PRODUCTS LISTING -->
-      <?php //include 'src/products/products.php'; ?>
+      <?php //include 'src/products/products.php'; 
+      ?>
 
 
       <!--  FEATURETTES -->
 
-      <?php //include 'src/features/features.php'; ?>
+      <?php //include 'src/features/features.php'; 
+      ?>
 
     </div><!-- /.container -->
 
 
     <!-- FOOTER -->
-    <?php //include 'src/footer/footer.php'; ?>
+    <?php //include 'src/footer/footer.php'; 
+    ?>
 
   </main>
 
- 
+
 </body>
 
 </html>
